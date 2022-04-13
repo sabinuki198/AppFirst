@@ -1,0 +1,140 @@
+/***************************************************ヘッダー**********************************************/
+header{
+  height: 100px;
+  width: 1366px;
+  background-color: #DBDBDB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .app{
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 30px;
+    color: #000000;
+  
+  }
+  
+  .contents-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+  }
+  
+  .service{
+    font-size: 22px;
+    margin-right: 70px;
+  }
+  
+  .news{
+    font-size: 22px;
+    margin-right: 70px;
+  }
+  
+  .contact{
+    font-size: 22px;
+    margin-right: 100px;
+  }
+  
+  /**********************************メイン見出し**********************************************************/
+  .parent{
+    /*height: 1000px;*/
+    width: 1366px;
+    /*background-color: #ffffff;*/
+    }
+  
+    .parent-service{
+      text-align: center;
+      padding: 50px 0 150px;
+    }
+
+    .service-midashi{
+      font-size: 64px;
+      font-weight: 600;
+    }
+
+    .service-naiyo{
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+/**********************************説明画像・内容**********************************************************/
+    .parent-images{
+      display: flex;
+      justify-content: space-between;
+      /*align-items: center;
+      margin: 150px 100px 180px 100px;*/
+      padding: 0 100px 180px;
+    }
+    .images{
+      height: 420px;
+      width: 350px;
+    }
+
+    .image{
+      height: 275px;
+      width: 350px;
+    }
+
+    .image-design{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .image-development{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .image-marketing{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .image-setumei{
+      height: 120px;
+      width: 100%;
+      background-color: #DADADA;
+      padding: 20px;
+      border-radius: 0 0 5px 5px;
+    }
+
+    .setumei-midashi{
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+     
+    }
+
+    .setumei-naiyo{
+      font-size: 14px;
+    }
+  /**********************************フッター*************************************************************/
+  footer{
+  height: 70px;
+  width: 1366px;
+  background-color: #DBDBDB;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  }
+  
+  .foot{
+    font-size: 16px;
+    color: #959393;
+  }
+  

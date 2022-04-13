@@ -1,0 +1,111 @@
+/***************************************************ヘッダー**********************************************/
+header{
+height: 100px;
+width: 1366px;
+background-color: #DBDBDB;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.app{
+  font-size: 36px;
+  font-weight: 600;
+  margin-left: 30px;
+  color: #000000;
+
+}
+
+.contents-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 600;
+  color: #000000;
+}
+
+.service{
+  font-size: 22px;
+  margin-right: 70px;
+}
+
+.news{
+  font-size: 22px;
+  margin-right: 70px;
+}
+
+.contact{
+  font-size: 22px;
+  margin-right: 100px;
+}
+
+/**********************************メイン画面**********************************************************/
+.parent{
+height: 700px;
+width: 1366px;
+position: relative;
+}
+
+.hero{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 30%;
+}
+
+.shikiri{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.textbox{
+  margin-bottom: 35px;
+}
+
+.purot{
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.idea{
+  font-size: 18px;
+}
+
+.service-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 250px;
+  font-size: 24px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+/**********************************フッター*************************************************************/
+footer{
+height: 70px;
+width: 1366px;
+background-color: #DBDBDB;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.foot{
+  font-size: 16px;
+  color: #959393;
+}
