@@ -69,9 +69,46 @@ header{
     }
  
 /******************ここから内容(左側)*****************************/
+.form-box{
+  height: 600px;
+  width: 650px;
+  margin:0 auto 180px;
+}
 
-  /******************ここから内容(右側)*****************************/
+.form-midashi{
+font-size: 24px;
+}
 
+.form-input{
+width: 100%;
+height: 60px;
+border-radius: 10px;
+border: 2px solid #DEDEDE;
+font-size: 20px;
+padding: 10px;
+display: block;
+margin-bottom: 25px;
+}
+
+.form-area{
+  width: 100%;
+  height: 160px;
+  border-radius: 10px;
+  border: 2px solid #DEDEDE;
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.form-send{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 24px;
+  background-color: #454545;
+  color: #ffffff;
+}
 
   /**********************************フッター*************************************************************/
   footer{
