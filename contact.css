@@ -1,0 +1,91 @@
+/***************************************************ヘッダー**********************************************/
+header{
+  height: 100px;
+  width: 1366px;
+  background-color: #DBDBDB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .app{
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 30px;
+    color: #000000;
+  
+  }
+  
+  .contents-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+  }
+  
+  .service{
+    font-size: 22px;
+    margin-right: 70px;
+  }
+  
+  .news{
+    font-size: 22px;
+    margin-right: 70px;
+  }
+  
+  .contact{
+    font-size: 22px;
+    margin-right: 100px;
+  }
+  
+  /**********************************メイン見出し**********************************************************/
+  .title{
+    width: 1366px;
+    height: 1000px;
+
+
+  }
+  .midashi{
+    padding:50px 0 150px;
+    display: flex;
+    justify-content: center;
+    }
+
+
+    .midashi-news{
+      font-size: 64px;
+      font-weight: 600;
+    }
+    .midashi-info{
+      font-size: 24px;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+    }
+ 
+/******************ここから内容(左側)*****************************/
+
+  /******************ここから内容(右側)*****************************/
+
+
+  /**********************************フッター*************************************************************/
+  footer{
+  height: 70px;
+  width: 1366px;
+  background-color: #DBDBDB;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  }
+  
+  .foot{
+    font-size: 16px;
+    color: #959393;
+  }
+  
